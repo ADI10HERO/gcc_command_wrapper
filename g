@@ -10,7 +10,7 @@ filename="${filename%.*}"
 #echo "Compiling..."
 printf "###\n"
 
-gcc arg1 -o $filename
+gcc $arg1 -o $filename
 sudo chmod u+x $filename
 
 shift 1
