@@ -3,7 +3,7 @@
 set -e
 
 arg1=$(readlink -f $1)
-filename=$(basename -- "arg1")
+filename=$(basename -- $arg1)
 #extension="${filename##*.}"
 filename="${filename%.*}"
 
