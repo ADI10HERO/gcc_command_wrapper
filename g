@@ -16,4 +16,4 @@ sudo chmod u+x $filename
 shift 1
 $PWD/$filename "$@"
 
-printf "\n###\n"
+printf "\n### Exit Status: $?\n"
