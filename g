@@ -2,8 +2,8 @@
 
 set -e
 
-arg1="$1"
-filename=$(basename -- "$1")
+arg1=$(readlink -f $1)
+filename=$(basename -- "arg1")
 #extension="${filename##*.}"
 filename="${filename%.*}"
 
