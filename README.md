@@ -1,4 +1,4 @@
-## Setup  
+## Setup for Linux
 sudo su  
 cp g /usr/bin/  
 chmod 005 /usr/bin/g  
