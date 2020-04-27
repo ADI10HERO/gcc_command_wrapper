@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 #Absoulte path
 arg1=$(readlink -f $1)
 
